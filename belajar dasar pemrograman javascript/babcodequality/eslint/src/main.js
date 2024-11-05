@@ -2,7 +2,7 @@ console.log(x);
 var x = 10;
 
 const isItTrue = true;
-const random = !!sicilian ? !sicilian : sicilian;
+const random = sicilian ? !sicilian : sicilian;
 
 function doSomeStuff() {
   return true;
