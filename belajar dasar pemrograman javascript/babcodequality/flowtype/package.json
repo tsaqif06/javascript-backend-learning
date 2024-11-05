@@ -1,0 +1,18 @@
+{
+    "name": "flow-sample",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "build": "flow-remove-types add.js --out-file output.js --all --pretty",
+      "flow": "flow check ."
+    },
+    "keywords": [],
+    "author": "Nur Rizki Adi Prasetyo <nrizki@dicoding.com>",
+    "license": "ISC",
+    "description": "Flow demo",
+    "devDependencies": {
+      "flow-bin": "^0.239.0",
+      "flow-remove-types": "^2.239.0"
+    }
+  }
+  

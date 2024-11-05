@@ -1,0 +1,13 @@
+{
+	"name": "jsdoc-sample",
+	"version": "1.0.0",
+	"scripts": {
+		"jsdoc": "jsdoc add.js"
+	},
+	"author": "Nur Rizki Adi Prasetyo <nrizki@dicoding.com>",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"jsdoc": "^4.0.3"
+	}
+}
