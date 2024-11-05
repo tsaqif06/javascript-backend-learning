@@ -1,0 +1,13 @@
+Concurrency dengan Promise
+
+Concurrency atau konkurensi adalah kemampuan untuk menjalankan beberapa proses atau tugas secara bersamaan.
+Dalam dunia pemrograman, concurrency penting untuk meningkatkan performa dan efisiensi aplikasi, terutama saat menangani tugas-tugas yang berat dan kompleks.
+
+Kita sering berhadapan dengan banyak proses asynchronous sekaligus dalam kehidupan nyata. Apakah Anda sadar? Contohnya kita memiliki tiga buah tugas yang perlu diselesaikan.
+
+Mencuci pakaian kotor dengan mesin cuci.
+Menyapu lantai dengan robot pembersih.
+Membuat kopi.
+Kita tahu bahwa dua tugas pertama didelegasikan ke mesin. Lalu, kita bisa mengerjakan tugas ketiga sembari dua pekerjaan tersebut dalam proses penyelesaian. Ini bisa kita sebut dengan proses concurrency karena banyak proses asynchronous berjalan secara bersamaan.
+
+Untuk melakukan hal ini, objek Promise memiliki beberapa static method, seperti Promise.all dan Promise.allSettled. Keduanya memiliki kemiripan. Hal yang membedakan adalah Promise.all akan memasuki kondisi rejected jika salah satu Promise saja terjadi kegagalan. Namun, ini tidak berlaku dengan Promise.allSettled.
