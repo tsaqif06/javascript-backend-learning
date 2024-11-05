@@ -1,0 +1,14 @@
+{
+  "name": "style-guide-with-eslint-sample",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "Nur Rizki Adi Prasetyo <nrizki@dicoding.com>",
+  "license": "ISC",
+  "description": "Eslint implementation demo",
+  "devDependencies": {
+    "eslint": "^9.7.0"
+  }
+}
